@@ -33,23 +33,27 @@ extension MultiFactorAuthenticationController: AWSCognitoIdentityMultiFactorAuth
             self.authenticationCode.text = ""
         }
         if error != nil {
-            let alertController = UIAlertController(title: "Cannot Verify Code",
-                                                    message: (error! as NSError).userInfo["message"] as? String,
-                                                    preferredStyle: .alert)
-            let resendAction = UIAlertAction(title: "Try Again", style: .default, handler:nil)
-            alertController.addAction(resendAction)
+            //DispatchQueue.main.async {
+                let alertController = UIAlertController(title: "Cannot Verify Code",
+                                                        message: (error! as NSError).userInfo["message"] as? String,
+                                                        preferredStyle: .alert)
+                let resendAction = UIAlertAction(title: "Try Again", style: .default, handler:nil)
+                alertController.addAction(resendAction)
 
-            let logoutAction = UIAlertAction(title: "Logout", style: .cancel, handler: { (action) in
-                AppDelegate.defaultUserPool().currentUser()?.signOut()
-                self.dismiss(animated: true, completion: {
-                    self.authenticationCode.text = nil
+                let logoutAction = UIAlertAction(title: "Logout", style: .cancel, handler: { (action) in
+                    AppDelegate.defaultUserPool().currentUser()?.signOut()
+                    self.dismiss(animated: true, completion: {
+                        self.authenticationCode.text = nil
+                    })
                 })
-            })
-            alertController.addAction(logoutAction)
-            
-            self.present(alertController, animated: true, completion:  nil)
+                alertController.addAction(logoutAction)
+                
+                self.present(alertController, animated: true, completion:  nil)
+            //}
         } else {
-            self.dismiss(animated: true, completion: nil)
+            DispatchQueue.main.async {
+                self.dismiss(animated: true, completion: nil)
+            }
         }
     }
     

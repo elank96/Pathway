@@ -51,7 +51,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return UIStoryboard(name: "Main", bundle: nil)
     }
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // setup logging
         AWSDDLog.sharedInstance.logLevel = .verbose
         AWSDDLog.add(AWSDDTTYLogger.sharedInstance)

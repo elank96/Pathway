@@ -37,6 +37,8 @@ class SignupViewController : UIViewController {
     
     var user: AWSCognitoIdentityUser?
     var codeDeliveryDetails:AWSCognitoIdentityProviderCodeDeliveryDetailsType?
+    var dynamo = DynamoConnect()
+    var loginCredentials = LoginCredentials()
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -49,7 +51,7 @@ class SignupViewController : UIViewController {
         self.phoneNumber.addTarget(self, action: #selector(inputDidChange(_:)), for: .editingChanged)
     }
     
-    func inputDidChange(_ sender:AnyObject) {
+    @objc func inputDidChange(_ sender:AnyObject) {
         if(firstName.text == nil || lastName.text == nil) {
             self.submitButton.isEnabled = false
             return
@@ -99,6 +101,14 @@ class SignupViewController : UIViewController {
                     }
                 }
             }
+            self.loginCredentials?._username = self.email.text!
+            self.loginCredentials?._firstName = self.firstName.text!
+            self.loginCredentials?._lastName = self.lastName.text!
+            self.loginCredentials?._phoneNumber = self.phoneNumber.text!
+           
+
+            self.dynamo.postToDB(trajObj: self.loginCredentials!)
+            
             return nil
         }
     }
