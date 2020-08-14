@@ -15,7 +15,7 @@ import Foundation
 import UIKit
 import AWSDynamoDB
 
-class LoginCredentials: AWSDynamoDBObjectModel, AWSDynamoDBModeling {
+@objcMembers class LoginCredentials: AWSDynamoDBObjectModel, AWSDynamoDBModeling {
     
     var _username: String?
     var _firstName: String?

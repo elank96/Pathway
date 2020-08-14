@@ -19,7 +19,7 @@
 		63A8F7D51F30E79B00AD21E0 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8F7D41F30E79B00AD21E0 /* SignupViewController.swift */; };
 		63A8F7D71F30FAC800AD21E0 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8F7D61F30FAC800AD21E0 /* VerificationViewController.swift */; };
 		63B5E4F31F33EBC300B9D1A3 /* MultiFactorAuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B5E4F21F33EBC300B9D1A3 /* MultiFactorAuthenticationController.swift */; };
-		6E3BB744AD21E1DD722F496E /* Pods_CognitoApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50439609D2FD5FDF1A0EA3E5 /* Pods_CognitoApplication.framework */; };
+		7A8BA14843CB69A4EA46218C /* Pods_Pathway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF270CB83C0A5116D6905D2B /* Pods_Pathway.framework */; };
 		8C2C8EA824E73E1000CB3096 /* CognitoConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C2C8EA724E73E1000CB3096 /* CognitoConfig.plist */; };
 		8C2C8EAA24E7409200CB3096 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C2C8EA924E7409100CB3096 /* awsconfiguration.json */; };
 		8C2C8EAD24E740B300CB3096 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C8EAC24E740B300CB3096 /* LoginCredentials.swift */; };
@@ -27,9 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		50439609D2FD5FDF1A0EA3E5 /* Pods_CognitoApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CognitoApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D6FA8A57C007EC439FA41F7 /* Pods-CognitoApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitoApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CognitoApplication/Pods-CognitoApplication.debug.xcconfig"; sourceTree = "<group>"; };
-		632D251D1EB81732005A4E31 /* CognitoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CognitoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FCED73EE8EE073BBBBA4CC /* Pods-Pathway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pathway.debug.xcconfig"; path = "Target Support Files/Pods-Pathway/Pods-Pathway.debug.xcconfig"; sourceTree = "<group>"; };
+		632D251D1EB81732005A4E31 /* Pathway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pathway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		632D25201EB81732005A4E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		632D25251EB81732005A4E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		632D25271EB81732005A4E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,11 +42,12 @@
 		63A8F7D41F30E79B00AD21E0 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		63A8F7D61F30FAC800AD21E0 /* VerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
 		63B5E4F21F33EBC300B9D1A3 /* MultiFactorAuthenticationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiFactorAuthenticationController.swift; sourceTree = "<group>"; };
-		88B9FE351F2439551342AEC4 /* Pods-CognitoApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitoApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-CognitoApplication/Pods-CognitoApplication.release.xcconfig"; sourceTree = "<group>"; };
 		8C2C8EA724E73E1000CB3096 /* CognitoConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CognitoConfig.plist; sourceTree = "<group>"; };
 		8C2C8EA924E7409100CB3096 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		8C2C8EAC24E740B300CB3096 /* LoginCredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
 		8C2C8EAE24E7456600CB3096 /* DynamoConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamoConnect.swift; sourceTree = "<group>"; };
+		96AC6529AFAF9D78FD7FBEFF /* Pods-Pathway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pathway.release.xcconfig"; path = "Target Support Files/Pods-Pathway/Pods-Pathway.release.xcconfig"; sourceTree = "<group>"; };
+		AF270CB83C0A5116D6905D2B /* Pods_Pathway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pathway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,41 +55,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3BB744AD21E1DD722F496E /* Pods_CognitoApplication.framework in Frameworks */,
+				7A8BA14843CB69A4EA46218C /* Pods_Pathway.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02715F221045F7A1A6B346C4 /* Pods */ = {
+		20C4D03DBF21C5FA89561B63 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5D6FA8A57C007EC439FA41F7 /* Pods-CognitoApplication.debug.xcconfig */,
-				88B9FE351F2439551342AEC4 /* Pods-CognitoApplication.release.xcconfig */,
+				42FCED73EE8EE073BBBBA4CC /* Pods-Pathway.debug.xcconfig */,
+				96AC6529AFAF9D78FD7FBEFF /* Pods-Pathway.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D2694C9A19CC36083709D66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF270CB83C0A5116D6905D2B /* Pods_Pathway.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		632D25141EB81731005A4E31 = {
 			isa = PBXGroup;
 			children = (
-				632D251F1EB81732005A4E31 /* CognitoApplication */,
+				632D251F1EB81732005A4E31 /* Pathway */,
 				632D251E1EB81732005A4E31 /* Products */,
-				02715F221045F7A1A6B346C4 /* Pods */,
-				F5247A24A42C70CE5B467572 /* Frameworks */,
+				20C4D03DBF21C5FA89561B63 /* Pods */,
+				4D2694C9A19CC36083709D66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		632D251E1EB81732005A4E31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				632D251D1EB81732005A4E31 /* CognitoApplication.app */,
+				632D251D1EB81732005A4E31 /* Pathway.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		632D251F1EB81732005A4E31 /* CognitoApplication */ = {
+		632D251F1EB81732005A4E31 /* Pathway */ = {
 			isa = PBXGroup;
 			children = (
 				8C2C8EAB24E740B300CB3096 /* NoSQL */,
@@ -97,12 +105,12 @@
 				6398A66E1EC153F0009C2D77 /* Config */,
 				632D25331EB95CAB005A4E31 /* Views */,
 				632D25201EB81732005A4E31 /* AppDelegate.swift */,
+				632D252C1EB81732005A4E31 /* Info.plist */,
 				632D25241EB81732005A4E31 /* Main.storyboard */,
 				632D25271EB81732005A4E31 /* Assets.xcassets */,
 				632D25291EB81732005A4E31 /* LaunchScreen.storyboard */,
-				632D252C1EB81732005A4E31 /* Info.plist */,
 			);
-			path = CognitoApplication;
+			path = Pathway;
 			sourceTree = "<group>";
 		};
 		632D25331EB95CAB005A4E31 /* Views */ = {
@@ -145,34 +153,26 @@
 			path = NoSQL;
 			sourceTree = "<group>";
 		};
-		F5247A24A42C70CE5B467572 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				50439609D2FD5FDF1A0EA3E5 /* Pods_CognitoApplication.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		632D251C1EB81732005A4E31 /* CognitoApplication */ = {
+		632D251C1EB81732005A4E31 /* Pathway */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 632D252F1EB81732005A4E31 /* Build configuration list for PBXNativeTarget "CognitoApplication" */;
+			buildConfigurationList = 632D252F1EB81732005A4E31 /* Build configuration list for PBXNativeTarget "Pathway" */;
 			buildPhases = (
-				873D1490F79AA8373D085D9F /* [CP] Check Pods Manifest.lock */,
+				B76BB41E3A40E693381623F0 /* [CP] Check Pods Manifest.lock */,
 				632D25191EB81732005A4E31 /* Sources */,
 				632D251A1EB81732005A4E31 /* Frameworks */,
 				632D251B1EB81732005A4E31 /* Resources */,
-				82D36ECA54A64E276AEE3212 /* [CP] Embed Pods Frameworks */,
+				6740E2280C006D4CD7D0BDAD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CognitoApplication;
+			name = Pathway;
 			productName = CognitoApplication;
-			productReference = 632D251D1EB81732005A4E31 /* CognitoApplication.app */;
+			productReference = 632D251D1EB81732005A4E31 /* Pathway.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -183,7 +183,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "David Tucker";
+				ORGANIZATIONNAME = "Elan Kainen";
 				TargetAttributes = {
 					632D251C1EB81732005A4E31 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -192,7 +192,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 632D25181EB81732005A4E31 /* Build configuration list for PBXProject "CognitoApplication" */;
+			buildConfigurationList = 632D25181EB81732005A4E31 /* Build configuration list for PBXProject "Pathway" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -206,7 +206,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				632D251C1EB81732005A4E31 /* CognitoApplication */,
+				632D251C1EB81732005A4E31 /* Pathway */,
 			);
 		};
 /* End PBXProject section */
@@ -227,13 +227,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		82D36ECA54A64E276AEE3212 /* [CP] Embed Pods Frameworks */ = {
+		6740E2280C006D4CD7D0BDAD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CognitoApplication/Pods-CognitoApplication-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Pathway/Pods-Pathway-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
@@ -252,21 +252,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CognitoApplication/Pods-CognitoApplication-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pathway/Pods-Pathway-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		873D1490F79AA8373D085D9F /* [CP] Check Pods Manifest.lock */ = {
+		B76BB41E3A40E693381623F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CognitoApplication-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Pathway-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -411,13 +415,13 @@
 		};
 		632D25301EB81732005A4E31 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D6FA8A57C007EC439FA41F7 /* Pods-CognitoApplication.debug.xcconfig */;
+			baseConfigurationReference = 42FCED73EE8EE073BBBBA4CC /* Pods-Pathway.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XTNA5LGD42;
-				INFOPLIST_FILE = CognitoApplication/Info.plist;
+				INFOPLIST_FILE = Pathway/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = elazarGavur;
+				PRODUCT_BUNDLE_IDENTIFIER = elazarGavur.Pathway;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -425,13 +429,13 @@
 		};
 		632D25311EB81732005A4E31 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88B9FE351F2439551342AEC4 /* Pods-CognitoApplication.release.xcconfig */;
+			baseConfigurationReference = 96AC6529AFAF9D78FD7FBEFF /* Pods-Pathway.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XTNA5LGD42;
-				INFOPLIST_FILE = CognitoApplication/Info.plist;
+				INFOPLIST_FILE = Pathway/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = elazarGavur;
+				PRODUCT_BUNDLE_IDENTIFIER = elazarGavur.Pathway;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -440,7 +444,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		632D25181EB81732005A4E31 /* Build configuration list for PBXProject "CognitoApplication" */ = {
+		632D25181EB81732005A4E31 /* Build configuration list for PBXProject "Pathway" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				632D252D1EB81732005A4E31 /* Debug */,
@@ -449,7 +453,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		632D252F1EB81732005A4E31 /* Build configuration list for PBXNativeTarget "CognitoApplication" */ = {
+		632D252F1EB81732005A4E31 /* Build configuration list for PBXNativeTarget "Pathway" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				632D25301EB81732005A4E31 /* Debug */,

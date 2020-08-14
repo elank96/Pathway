@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CognitoApplication.xcodeproj">
+      location = "self:/Users/elankainen/Desktop/Pathway/Pathway.xcodeproj">
    </FileRef>
 </Workspace>

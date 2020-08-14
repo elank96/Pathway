@@ -3,7 +3,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 use_frameworks!
 
-target 'CognitoApplication' do
+target 'Pathway' do
     pod 'AWSCore', '~> 2.7.0'
     pod 'AWSCognitoIdentityProvider', '~> 2.7.0'
     pod 'AWSMobileClient'
