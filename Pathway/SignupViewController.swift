@@ -102,11 +102,13 @@ class SignupViewController : UIViewController {
                 }
             }
       //     POST new user info to DynamoDB
-                self.loginCredentials?._username = self.email.text!
-                self.loginCredentials?._firstName = self.firstName.text!
-                self.loginCredentials?._lastName = self.lastName.text!
-                self.loginCredentials?._phoneNumber = self.phoneNumber.text!
-                self.dynamo.postToDB(trajObj: self.loginCredentials!)
+               DispatchQueue.main.async {
+                    self.loginCredentials?._username = self.email.text!
+                    self.loginCredentials?._firstName = self.firstName.text!
+                    self.loginCredentials?._lastName = self.lastName.text!
+                    self.loginCredentials?._phoneNumber = self.phoneNumber.text!
+                    self.dynamo.postToDB(trajObj: self.loginCredentials!)
+            }
             return nil
         }
     }

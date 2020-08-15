@@ -15,15 +15,15 @@
 		632D25371EB95CCE005A4E31 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632D25361EB95CCE005A4E31 /* ResetPasswordViewController.swift */; };
 		632D25391EB95CDE005A4E31 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632D25381EB95CDE005A4E31 /* AppViewController.swift */; };
 		6373365E1F3252B700EA5BCE /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373365D1F3252B700EA5BCE /* ForgotPasswordViewController.swift */; };
-		6398A6721EC1548D009C2D77 /* CognitoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398A6711EC1548D009C2D77 /* CognitoConfig.swift */; };
 		63A8F7D51F30E79B00AD21E0 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8F7D41F30E79B00AD21E0 /* SignupViewController.swift */; };
 		63A8F7D71F30FAC800AD21E0 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8F7D61F30FAC800AD21E0 /* VerificationViewController.swift */; };
 		63B5E4F31F33EBC300B9D1A3 /* MultiFactorAuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B5E4F21F33EBC300B9D1A3 /* MultiFactorAuthenticationController.swift */; };
 		7A8BA14843CB69A4EA46218C /* Pods_Pathway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF270CB83C0A5116D6905D2B /* Pods_Pathway.framework */; };
-		8C2C8EA824E73E1000CB3096 /* CognitoConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C2C8EA724E73E1000CB3096 /* CognitoConfig.plist */; };
 		8C2C8EAA24E7409200CB3096 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C2C8EA924E7409100CB3096 /* awsconfiguration.json */; };
 		8C2C8EAD24E740B300CB3096 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C8EAC24E740B300CB3096 /* LoginCredentials.swift */; };
 		8C2C8EAF24E7456600CB3096 /* DynamoConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2C8EAE24E7456600CB3096 /* DynamoConnect.swift */; };
+		8C2C8EB124E75E4100CB3096 /* CognitoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398A6711EC1548D009C2D77 /* CognitoConfig.swift */; };
+		8C2C8EB324E75E6500CB3096 /* CognitoConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C2C8EA724E73E1000CB3096 /* CognitoConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -217,8 +217,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				632D252B1EB81732005A4E31 /* LaunchScreen.storyboard in Resources */,
-				8C2C8EA824E73E1000CB3096 /* CognitoConfig.plist in Resources */,
 				632D25281EB81732005A4E31 /* Assets.xcassets in Resources */,
+				8C2C8EB324E75E6500CB3096 /* CognitoConfig.plist in Resources */,
 				632D25261EB81732005A4E31 /* Main.storyboard in Resources */,
 				8C2C8EAA24E7409200CB3096 /* awsconfiguration.json in Resources */,
 			);
@@ -286,10 +286,10 @@
 			files = (
 				63B5E4F31F33EBC300B9D1A3 /* MultiFactorAuthenticationController.swift in Sources */,
 				6373365E1F3252B700EA5BCE /* ForgotPasswordViewController.swift in Sources */,
+				8C2C8EB124E75E4100CB3096 /* CognitoConfig.swift in Sources */,
 				63A8F7D51F30E79B00AD21E0 /* SignupViewController.swift in Sources */,
 				8C2C8EAF24E7456600CB3096 /* DynamoConnect.swift in Sources */,
 				632D25371EB95CCE005A4E31 /* ResetPasswordViewController.swift in Sources */,
-				6398A6721EC1548D009C2D77 /* CognitoConfig.swift in Sources */,
 				632D25351EB95CBD005A4E31 /* LoginViewController.swift in Sources */,
 				8C2C8EAD24E740B300CB3096 /* LoginCredentials.swift in Sources */,
 				632D25391EB95CDE005A4E31 /* AppViewController.swift in Sources */,
